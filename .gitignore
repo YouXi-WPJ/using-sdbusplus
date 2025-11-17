@@ -1,0 +1,6 @@
+.vscode/
+/build*
+/*.tar.bz2
+/*.tar.gz
+/*.tar.xz
+.venv/
