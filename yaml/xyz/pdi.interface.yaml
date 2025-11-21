@@ -1,0 +1,28 @@
+description: >
+  Implement to provide operations on a collection of objects.
+
+methods:
+  - name: GetValue
+    description: >
+      Retrieves the integer value.
+    returns:
+      - name: value
+        type: int32
+        description: >
+          The current integer value.
+
+  - name: SetValue
+    description: >
+      Sets the integer value.
+    parameters:
+      - name: value
+        type: int32
+        description: >
+          The integer value to set.
+
+properties:
+  - name: Value
+    type: int32
+    default: 0
+    description: >
+      An integer value representing the state.
