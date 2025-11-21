@@ -1,0 +1,2 @@
+option('using-pdi', type: 'boolean', value: false, description: 'Enable Phosphor DBus Interfaces support')
+option('using-boost', type: 'boolean', value: false)
