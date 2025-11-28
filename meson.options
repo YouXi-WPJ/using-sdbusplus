@@ -1,2 +1,2 @@
-option('using-pdi', type: 'boolean', value: false, description: 'Enable Phosphor DBus Interfaces support')
-option('using-boost', type: 'boolean', value: false)
+option('using-yaml', type: 'boolean', value: false, description: 'Enable YAML generation API support')
+option('using-boost', type: 'boolean', value: false, description: 'Enable Boost Libraries support')
